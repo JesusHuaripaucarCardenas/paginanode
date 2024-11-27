@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventaflow - Inicio</title>
+    <link rel="stylesheet" href="/index/styles.css">
+    <link rel="stylesheet" href="/navegacion-estilos.css">
+    <link rel="stylesheet" href="/index/rueda/rueda.css">
+</head>
+
+<div class="pagina">
+
+    <div class="caja-header">
+        <a href="index.html" class="logo">
+            <img src="/images/logo.png" alt="Logotipo VentaFlow">
+            <span class="nombre-logo">VENTAFLOW</span>
+        </a>
+        <nav class="menu">
+            <a href="/Nosotros/nosotros.html">Nosotros</a>
+            <a href="/Noticias/">Noticias</a>
+            <a href="producto.html">Producto</a>
+            <a href="/formulario/soporte.html">Soporte</a>
+            <a href="#">¿Qué puedo hacer?</a>
+        </nav>
+    </div>
+
+
+    <!-- Sección 1: Imagen de fondo -->
+    <section class="fondo">
+        <div class="titulods"></div> <!-- Contenedor para el texto -->
+    </section>
+    <script src="/index/scripts/escritura.js"></script>
+
+    <div id="menu" class="menu-desplegable-ods">
+        <div class="menu-izquierdo">Conoce los 17 ODS</div>
+        <div class="menu-derecho">
+            <select class="desplegable-objetivos" onchange="irAOds(this.value)">
+                <option value="" disabled selected>OBJETIVOS</option>
+                <option value="ods1">1. Fin de la pobreza</option>
+                <option value="ods2">2. Hambre cero</option>
+                <option value="ods3">3. Salud y bienestar</option>
+                <option value="ods4">4. Educación de calidad</option>
+                <option value="ods5">5. Igualdad de género</option>
+                <option value="ods6">6. Agua limpia y saneamiento</option>
+                <option value="ods7">7. Energía asequible y no contaminante</option>
+                <option value="ods8">8. Trabajo decente y crecimiento económico</option>
+                <option value="/ods/ods9/ods9.html">9. Industria, innovación e infraestructura</option>
+                <option value="ods10">10. Reducción de las desigualdades</option>
+                <option value="ods11">11. Ciudades y comunidades sostenibles</option>
+                <option value="ods12">12. Producción y consumo responsables</option>
+                <option value="ods13">13. Acción por el clima</option>
+                <option value="ods14">14. Vida submarina</option>
+                <option value="ods15">15. Vida de ecosistemas terrestres</option>
+                <option value="ods16">16. Paz, justicia e instituciones sólidas</option>
+                <option value="ods17">17. Alianzas para lograr los objetivos</option>
+            </select>
+        </div>    
+    </div>
+  <div id="panel-derecho" class="panel-derecho oculto">
+        <button class="cerrar-panel" onclick="cerrarPanel()">✖</button>
+        <div id="contenido-panel"></div>
+    </div>
+
+    <script src="/ods/ods9/scripts/pagina.js"></script>
+
+    <script src="/index/scripts/fijo.js"></script>
+
+    <main class="seccion-ods">
+        <section class="imagenes-ods">
+            <span id="ods1" class="ods-item"></span>
+            <span id="ods2" class="ods-item"></span>
+            <span id="ods3" class="ods-item"></span>
+            <span id="ods4" class="ods-item"></span>
+            <span id="ods5" class="ods-item"></span>
+            <span id="ods6" class="ods-item"></span>
+            <span id="ods7" class="ods-item"></span>
+            <span id="ods8" class="ods-item"></span>
+            <span id="ods9" class="ods-item"></span>
+            <span id="ods10" class="ods-item"></span>
+            <span id="ods11" class="ods-item"></span>
+            <span id="ods12" class="ods-item"></span>
+            <span id="ods13" class="ods-item"></span>
+            <span id="ods14" class="ods-item"></span>
+            <span id="ods15" class="ods-item"></span>
+            <span id="ods16" class="ods-item"></span>
+            <span id="ods17" class="ods-item"></span>
+        </section>
+        <section class="textos-ods">
+            <article id="texto-predeterminado" class="texto-item activo">
+                <h4>¿Qué son los ODS?</h4>
+                <span>Los 17 Objetivos de Desarrollo Sostenible (ODS) son un conjunto de metas adoptadas por las
+                    Naciones Unidas en 2015, como parte de la Agenda 2030, con el propósito de abordar los principales
+                    desafíos sociales, económicos y ambientales que enfrenta el mundo. Los ODS buscan erradicar la
+                    pobreza, proteger el planeta y garantizar que todas las personas gocen de paz y prosperidad,
+                    promoviendo el desarrollo inclusivo y equitativo a nivel global. Estos objetivos cubren un amplio
+                    rango de áreas que incluyen la educación de calidad, la igualdad de género, la acción por el clima y
+                    más.</span>
+            </article>
+            <article id="texto1" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 1: Fin de la pobreza?</h4>
+                <span>Este objetivo se centra en erradicar la pobreza extrema para 2030, medida como personas que viven
+                    con menos de 1.25 dólares al día. También busca implementar sistemas de protección social,
+                    garantizar igualdad de acceso a recursos económicos y mejorar las condiciones de vida en comunidades
+                    vulnerables..</span>
+                <h4>¿Por qué es tan importante el ODS 1: Fin de la pobreza?</h4>
+                <span>Porque la pobreza perpetúa desigualdades y limita el acceso a educación, salud y oportunidades,
+                    afectando generaciones enteras. Acabar con la pobreza es clave para construir un mundo más
+                    equitativo y sostenible.</span>
+            </article>
+            <article id="texto2" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 2: Hambre cero?</h4>
+                <span>El ODS 2 tiene como meta erradicar el hambre y garantizar el acceso a alimentos nutritivos para
+                    todas las personas, especialmente en situaciones de vulnerabilidad. También fomenta prácticas
+                    agrícolas sostenibles que aumenten la productividad y protejan el medio ambiente.</span>
+                <h4>¿Por qué es tan importante el ODS 2: Hambre cero?</h4>
+                <span>Porque el hambre afecta gravemente la salud y el desarrollo de las personas, especialmente en niños. Garantizar la seguridad alimentaria es fundamental para romper el ciclo de la pobreza y mejorar la calidad de vida.</span>
+            </article>
+            <article id="texto3" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 3: Salud y bienestar?</h4>
+                <span>Este objetivo busca garantizar una vida sana y promover el bienestar para todos en todas las edades, abordando enfermedades transmisibles y no transmisibles, mejorando los servicios sanitarios y promoviendo estilos de vida saludables.</span>
+                <h4>¿Por qué es tan importante el ODS 3: Salud y bienestar?</h4>
+                <span>Porque sin salud no es posible un desarrollo sostenible. Mejorar la calidad de los servicios sanitarios y reducir las enfermedades contribuye al bienestar de las personas y al desarrollo económico.</span>
+            </article>
+            <article id="texto4" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 4: Educación de calidad?</h4>
+                <span>El ODS 4 busca garantizar una educación inclusiva y equitativa para todos, promoviendo oportunidades de aprendizaje que abarquen desde la primera infancia hasta la formación técnica y superior.</span>
+                <h4>¿Por qué es tan importante el ODS 4: Educación de calidad?</h4>
+                <span>Porque la educación empodera a las personas, fomenta el desarrollo económico y reduce las desigualdades, convirtiéndose en un motor clave para el progreso sostenible.</span>
+            </article>
+            <article id="texto5" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 5: Igualdad de género?</h4>
+                <span>Este objetivo busca acabar con todas las formas de discriminación y violencia contra mujeres y niñas, garantizar su participación plena en la sociedad y promover la igualdad en todos los ámbitos, incluido el acceso a recursos y oportunidades.</span>
+                <h4>¿Por qué es tan importante el ODS 5: Igualdad de género?</h4>
+                <span>Porque las mujeres y niñas representan la mitad de la población mundial. La igualdad de género impulsa el desarrollo social, económico y político, y es esencial para construir sociedades justas.</span>
+            </article>
+            <article id="texto6" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 6: Agua limpia y saneamiento?</h4>
+                <span>El ODS 6 busca garantizar el acceso universal y equitativo al agua potable, la gestión sostenible de los recursos hídricos y el acceso a servicios de saneamiento adecuados.</span>
+                <h4>¿Por qué es tan importante el ODS 6: Agua limpia y saneamiento?</h4>
+                <span>Porque el agua es esencial para la vida. Sin acceso a agua limpia, las personas enfrentan graves problemas de salud y las comunidades no pueden desarrollarse de manera sostenible.</span>
+            </article>
+            <article id="texto7" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 7: Energía asequible y no contaminante?</h4>
+                <span>Este objetivo busca asegurar acceso universal a servicios energéticos asequibles, fiables y sostenibles, además de promover el uso de energías renovables y mejorar la eficiencia energética.</span>
+                <h4>¿Por qué es tan importante el ODS 7: Energía asequible y no contaminante?</h4>
+                <span>Porque el acceso a energía limpia es esencial para el desarrollo económico, el bienestar humano y la lucha contra el cambio climático.</span>
+            </article>
+            <article id="texto8" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 8: Trabajo decente y crecimiento económico?</h4>
+                <span>El ODS 8 promueve el crecimiento económico sostenido e inclusivo, el empleo pleno y productivo, y condiciones laborales dignas para todos.</span>
+                <h4>¿Por qué es tan importante el ODS 8: Trabajo decente y crecimiento económico?</h4>
+                <span>Porque el trabajo digno y el crecimiento económico son fundamentales para reducir la pobreza y crear sociedades más equitativas y estables.</span>
+            </article>
+            <article id="texto9" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 9: Industria, innovación e infraestructura?</h4>
+                <span>Este objetivo busca construir infraestructuras resilientes, fomentar la industrialización inclusiva y promover la innovación para impulsar el desarrollo económico y tecnológico.</span>
+                <h4>¿Por qué es tan importante el ODS 9: Industria, innovación e infraestructura?</h4>
+                <span>Porque las infraestructuras modernas y la innovación tecnológica son esenciales para mejorar la productividad, la conectividad y la calidad de vida.</span>
+            </article>
+            <article id="texto10" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 10: Reducción de las desigualdades?</h4>
+                <span>El ODS 10 se enfoca en reducir las desigualdades económicas y sociales dentro de los países y entre ellos, garantizando la inclusión de las personas más vulnerables.</span>
+                <h4>¿Por qué es tan importante el ODS 10: Reducción de las desigualdades?</h4>
+                <span>Porque las desigualdades perpetúan la pobreza y los conflictos, limitando el desarrollo y el acceso a oportunidades para millones de personas.</span>
+            </article>
+            <article id="texto11" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 11: Ciudades y comunidades sostenibles?</h4>
+                <span>El ODS 11 busca transformar las ciudades en lugares inclusivos, seguros, resilientes y sostenibles, abordando problemas como el crecimiento urbano desordenado, la contaminación y la falta de infraestructura adecuada.</span>
+                <h4>¿Por qué es tan importante el ODS 11: Ciudades y comunidades sostenibles?</h4>
+                <span>Porque más de la mitad de la población mundial vive en ciudades, y la urbanización descontrolada impacta la calidad de vida, el medio ambiente y la economía global.</span>
+            </article>
+            <article id="texto12" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 12: Producción y consumo responsables?</h4>
+                <span>Este objetivo promueve patrones sostenibles de consumo y producción, como la reducción del desperdicio de recursos y el uso responsable de bienes y servicios.</span>
+                <h4>¿Por qué es tan importante el ODS 12: Producción y consumo responsables?</h4>
+                <span>Porque el consumo excesivo y la producción no sostenible agotan los recursos del planeta, afectando la biodiversidad y acelerando el cambio climático.</span>
+            </article>
+            <article id="texto13" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 13: Acción por el clima?</h4>
+                <span>El ODS 13 llama a tomar medidas urgentes para combatir el cambio climático, reduciendo las emisiones de gases de efecto invernadero y fortaleciendo la resiliencia ante desastres naturales.</span>
+                <h4>¿Por qué es tan importante el ODS 13: Acción por el clima?</h4>
+                <span>Porque el cambio climático es una amenaza global que afecta los ecosistemas, la economía y la vida humana, especialmente en las comunidades más vulnerables.
+                </span>
+            </article>
+            <article id="texto14" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 14: Vida submarina?</h4>
+                <span>Este objetivo se enfoca en la conservación y el uso sostenible de los océanos, mares y recursos marinos, promoviendo la pesca responsable y la reducción de la contaminación.</span>
+                <h4>¿Por qué es tan importante el ODS 14: Vida submarina?</h4>
+                <span>Porque los océanos regulan el clima, proporcionan alimentos y son el hogar de una enorme biodiversidad, esencial para la vida en la Tierra.</span>
+            </article>
+            <article id="texto15" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 15: Vida de ecosistemas terrestres?</h4>
+                <span>El ODS 15 busca proteger, restaurar y promover el uso sostenible de los ecosistemas terrestres, como bosques, montañas y tierras áridas, y combatir la desertificación y la pérdida de biodiversidad.</span>
+                <h4>¿Por qué es tan importante el ODS 15: Vida de ecosistemas terrestres?</h4>
+                <span>Porque los ecosistemas saludables son fundamentales para la supervivencia humana, proporcionando agua, alimentos y aire limpio.</span>
+            </article>
+            <article id="texto16" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 16: Paz, justicia e instituciones sólidas?</h4>
+                <span>Este objetivo fomenta sociedades pacíficas, justas e inclusivas, garantizando el acceso a la justicia y promoviendo instituciones transparentes y responsables.</span>
+                <h4>¿Por qué es tan importante el ODS 16: Paz, justicia e instituciones sólidas?</h4>
+                <span>Porque la paz y la justicia son esenciales para la estabilidad social y el desarrollo sostenible, reduciendo conflictos y fortaleciendo el estado de derecho.</span>
+            </article>
+            <article id="texto17" class="texto-item">
+                <h4>¿Qué es el Objetivo de Desarrollo Sostenible 17: Alianzas para lograr los objetivos?</h4>
+                <span>El ODS 17 promueve la cooperación global mediante alianzas entre gobiernos, empresas y sociedad civil para movilizar recursos, compartir conocimientos y alcanzar los demás objetivos.</span>
+                <h4>¿Por qué es tan importante el ODS 17: Alianzas para lograr los objetivos?</h4>
+                <span>Porque ningún país puede resolver los problemas globales por sí solo; la colaboración es clave para enfrentar desafíos como la pobreza, el cambio climático y las desigualdades.</span>
+            </article>
+        </section>
+        <span class="imagen-dinamica predeterminado"></span>
+    </main>
+    <script src="/index/scripts/interfaz-ods.js"></script>
+
+    <!-- Sección 2: Imágenes en 3 columnas -->
+    <section class="ods-section">
+        <div class="container">
+            <div class="circle">
+                <img src="/index/rueda/18.png" alt="Mundo" class="center-image">
+                <div class="ods-images">
+                    <img src="/index/rueda/ods1.jpg" alt="ODS 1"
+                        data-text="ODS 1: Fin de la pobreza. Este ODS se centra en erradicar la pobreza en todas sus formas."
+                        data-bg-color="#E5233D" class="ods-image">
+                    <img src="/index/rueda/ods2.jpg" alt="ODS 2"
+                        data-text="ODS 2: Hambre cero. Busca acabar con el hambre, lograr la seguridad alimentaria y mejorar la nutrición."
+                        data-bg-color="#DDA73A" class="ods-image">
+                    <img src="/index/rueda/ods3.jpg" alt="ODS 3"
+                        data-text="ODS 3: Salud y bienestar. Promueve el acceso universal a la salud y el bienestar."
+                        data-bg-color="#4CA146" class="ods-image">
+                    <img src="/index/rueda/ods4.jpg" alt="ODS 4"
+                        data-text="ODS 4: Educación de calidad. Garantiza una educación inclusiva, equitativa y de calidad."
+                        data-bg-color="#C7212F" class="ods-image">
+                    <img src="/index/rueda/ods5.jpg" alt="ODS 5"
+                        data-text="ODS 5: Igualdad de género. Busca lograr la igualdad entre los géneros y empoderar a las mujeres y niñas."
+                        data-bg-color="#EF402D" class="ods-image">
+                    <img src="/index/rueda/ods6.png" alt="ODS 6"
+                        data-text="ODS 6: Agua limpia y saneamiento. Garantiza la disponibilidad y gestión sostenible del agua."
+                        data-bg-color="#27BFE6" class="ods-image">
+                    <img src="/index/rueda/ods7.jpg" alt="ODS 7"
+                        data-text="ODS 7: Energía asequible y no contaminante. Asegura el acceso a energía asequible y sostenible."
+                        data-bg-color="#FBC412" class="ods-image">
+                    <img src="/index/rueda/ods8.jpg" alt="ODS 8"
+                        data-text="ODS 8: Trabajo decente y crecimiento económico. Promueve el empleo pleno, productivo y decente."
+                        data-bg-color="#A31C44" class="ods-image">
+                    <img src="/index/rueda/ods9.jpg" alt="ODS 9"
+                        data-text="ODS 9: Industria, innovación e infraestructura. Fomenta una industrialización inclusiva y sostenible."
+                        data-bg-color="#F26A2E" class="ods-image">
+                    <img src="/index/rueda/ods10.jpg" alt="ODS 10"
+                        data-text="ODS 10: Reducción de las desigualdades. Reduce las desigualdades dentro y entre los países."
+                        data-bg-color="#DD1667" class="ods-image">
+                    <img src="/index/rueda/ods11.png" alt="ODS 11"
+                        data-text="ODS 11: Ciudades y comunidades sostenibles. Hace que las ciudades sean inclusivas y seguras."
+                        data-bg-color="#F89D2A" class="ods-image">
+                    <img src="/index/rueda/ods12.jpg" alt="ODS 12"
+                        data-text="ODS 12: Producción y consumo responsables. Garantiza modalidades sostenibles de consumo y producción."
+                        data-bg-color="#BF8D2C" class="ods-image">
+                    <img src="/index/rueda/ods13.png" alt="ODS 13"
+                        data-text="ODS 13: Acción por el clima. Adopta medidas urgentes para combatir el cambio climático."
+                        data-bg-color="#407F46" class="ods-image">
+                    <img src="/index/rueda/ods14.png" alt="ODS 14"
+                        data-text="ODS 14: Vida submarina. Conserva y utiliza de manera sostenible los océanos y mares."
+                        data-bg-color="#1F97D4" class="ods-image">
+                    <img src="/index/rueda/ods15.png" alt="ODS 15"
+                        data-text="ODS 15: Vida de ecosistemas terrestres. Protege, restaura y fomenta el uso sostenible de ecosistemas terrestres."
+                        data-bg-color="#59BA47" class="ods-image">
+                    <img src="/index/rueda/ods16.jpg" alt="ODS 16"
+                        data-text="ODS 16: Paz, justicia e instituciones sólidas. Promueve sociedades pacíficas e inclusivas."
+                        data-bg-color="#136A9F" class="ods-image">
+                    <img src="/index/rueda/ods17.png" alt="ODS 17"
+                        data-text="ODS 17: Alianzas para lograr los objetivos. Fortalece la Alianza Mundial para el Desarrollo Sostenible."
+                        data-bg-color="#7b1fa2" class="ods-image">
+                </div>
+            </div>
+            <div class="text-container">
+                <p id="ods-text">ODS 1: Fin de la pobreza</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/index/rueda/rueda.js"></script>
+
+    <!-- Sección 3: Información sobre los ODS -->
+    <div class="info-ods">
+
+        <div class="contenedor-ods">
+            <div class="subtitulo">
+                ¿Por qué son importantes los ODS?
+            </div>
+            <div class="texto-contenido">
+                <div class="contenido">
+                    Los Objetivos de Desarrollo Sostenible son importantes porque representan un plan global para
+                    mejorar la calidad de vida de las personas y proteger el planeta, abordando desafíos globales como
+                    la pobreza, la desigualdad, el cambio climático, la degradación ambiental, la paz y la justicia.
+                </div>
+                <div class="imagen-ods">
+                    <img src="/index/images/queson.png" alt="ODS Imagen">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección 5: Información de contacto y redes -->
+    <div class="caja-footer">
+        <div class="logo-nombre">
+            <img src="/images/logo.png" alt="Logotipo VentaFlow"> <!-- Logo junto al nombre en el footer -->
+            <span class="nombre">VENTAFLOW</span>
+        </div>
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="producto.html">Producto</a>
+            <a href="soporte.html">Soporte</a>
+            <a href="que-puedo-hacer.html">¿Qué puedo hacer?</a>
+        </nav>
+        <div class="contacto">
+            <span class="red">TikTok</span>
+            <span class="correo">correo1@ventaflow.com</span>
+            <span class="correo">correo2@ventaflow.com</span>
+            <span class="correo">correo3@ventaflow.com</span>
+        </div>
+    </div>
+
+    </body>
+
+</html>
